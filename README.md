@@ -128,3 +128,40 @@ food-freshness-detection/
     ├── prediction.png
     ├── gradcam.png
     └── workflow.png
+
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/gopikasuresh76/food-freshness-detection.git
+cd food-freshness-detection
+---
+
+## ⚠️ Limitations
+
+The model was trained on a specific fruit image dataset. Therefore, prediction performance may vary for images captured in different environments.
+
+Factors such as lighting, background, camera angle, image quality, and differences in image sources can affect predictions.
+
+The system provides an AI-based estimation and should not replace human inspection.
+
+---
+
+## 🚀 Future Improvements
+
+- Support for additional fruits and vegetables.
+- Larger and more diverse datasets.
+- Improved real-world image generalization.
+- Cloud deployment.
+- Mobile application integration.
+- Additional Explainable AI techniques.
+
+---
+
+## 📌 Project Type
+
+Academic Deep Learning / Computer Vision Project
