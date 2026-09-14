@@ -128,7 +128,7 @@ food-freshness-detection/
     ├── prediction.png
     ├── gradcam.png
     └── workflow.png
-
+```
 
 ---
 
@@ -139,6 +139,34 @@ food-freshness-detection/
 ```bash
 git clone https://github.com/gopikasuresh76/food-freshness-detection.git
 cd food-freshness-detection
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the environment on Windows
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 4. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
 ---
 
 ## ⚠️ Limitations
